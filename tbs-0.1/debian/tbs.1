@@ -1,0 +1,32 @@
+.\" (C) Copyright 2017 Colby Connolly <protheophage@gmail.com>,
+.\"
+.TH TBS "1" "User Commands"
+.SH NAME
+tbs \- The Black Scorme
+.SH SYNOPSIS
+.B aic
+.SH DESCRIPTION
+.PP
+	Finds all attached devices, exluding the live usb, and writes zeros (0) to them.
+
+	This tool was designed to be used with a live Linux distribution. In order for this tool to exlude the live usb, there must be a "flag" directory named "iignoree_meee" located in the / of the live device (NOT / of the OS)
+
+	This tool was created with and tested on Kali Linux.
+
+.SH OPTIONS
+This program does not require options or user input.
+
+.SH CREDITS
+This tool uses the following Linux built-ins to accomplish the desired tasks:
+UMOUNT FDISK GREP MKDIR ECHO MOUNT HEAD TAIL FIND READ SED
+For information about these tools please see the appropriate manual pages (i.e. man umount)
+.SH AUTHOR
+ Written by Colby Connolly
+.SH REPORTING BUGS
+protheophage@gmail.com
+.SH COPYRIGHT
+Copyright  ©  2016  Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>.
+.br
+This is free software: you are free  to  change  and  redistribute  it.
+There is NO WARRANTY, to the extent permitted by law.

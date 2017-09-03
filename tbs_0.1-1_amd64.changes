@@ -1,0 +1,49 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA256
+
+Format: 1.8
+Date: Sat, 02 Sep 2017 20:31:04 -0700
+Source: tbs
+Binary: tbs
+Architecture: source all
+Version: 0.1-1
+Distribution: unstable
+Urgency: medium
+Maintainer: Colby Connolly <protheophage@gmail.com>
+Changed-By: Colby Connolly <protheophage@gmail.com>
+Description:
+ tbs        - <insert up to 60 chars description>
+Changes:
+ tbs (0.1-1) unstable; urgency=medium
+ .
+   * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
+Checksums-Sha1:
+ aa89520cf997ee11bc66f6cccdd78bcf76fa5bec 1338 tbs_0.1-1.dsc
+ a33cc78c40cb747dfa62fb131eb9fbc523b2c3a1 780 tbs_0.1.orig.tar.xz
+ f9d4e849ed0750076dd16386ebf6d1affc83811e 2764 tbs_0.1-1.debian.tar.xz
+ 86b8c6089f61037a5cda27a069c632e63c136bf1 3656 tbs_0.1-1_all.deb
+ bd41cced5be4ff551600644f47cf299be494ffa2 5238 tbs_0.1-1_amd64.buildinfo
+Checksums-Sha256:
+ 5a088a1d72acadce49857d9f0ecb26aae2f0d49790d88e6f2108f6fac09d92d3 1338 tbs_0.1-1.dsc
+ ce9af8c95105e9149ec2f41370f459b516c48452c4dcc3d43dfbdeba86526ef1 780 tbs_0.1.orig.tar.xz
+ 5b30b9d5c43f99c5043858d3351bab672aa4fb6e4ea552e79ebee5150dfbe892 2764 tbs_0.1-1.debian.tar.xz
+ 3694af04cdaea3d779b31987338400602264ded74e6bab8737ffbd0691abd4da 3656 tbs_0.1-1_all.deb
+ 734585877dcf1696fe96422dd5581f363443c709e55c97520acef8f0ca44fc22 5238 tbs_0.1-1_amd64.buildinfo
+Files:
+ d878e7867fdb59c2686cfbd920487ff9 1338 unknown optional tbs_0.1-1.dsc
+ 9a985da46d498e68ee38dfef7c494b12 780 unknown optional tbs_0.1.orig.tar.xz
+ 1557b5422411ee8600bccdbfe588d6c1 2764 unknown optional tbs_0.1-1.debian.tar.xz
+ bd26411661f0fe08bba92f9de4824e8e 3656 unknown optional tbs_0.1-1_all.deb
+ 8117293533d487f915d74f7544d265bc 5238 unknown optional tbs_0.1-1_amd64.buildinfo
+
+-----BEGIN PGP SIGNATURE-----
+
+iQFLBAEBCAA1FiEE23Oc1mYbwTGudkLNWaBVsT+bU9QFAlmrf9wXHHByb3RoZW9w
+aGFnZUBnbWFpbC5jb20ACgkQWaBVsT+bU9S0RwgAgkBh/8yE4tXROvWLgzcQGm4+
+YWwUoPQTMLD2Dfo4SyWbBqrILfEoJCYOULWaEvZbxw9eom/FELI9kBISzaBcQ4zo
+wYLV9HA4EvDperQltd3TcFxGM+cqPVOQqfherEroh/WXXzAXiyMDQhLzBHrdxoe4
+CwJChiw7Df1GrUhbOQTvnda+VYgxWa8gcKcBjZwY2JsPWy/JWeGrC/Zs5w1ylZDe
+RCGiPGRSMT1qBni/WQee+bsNYzkwHzfC4ceoomrHJRQf/gKRmNqmGcjvzx/Wfixc
+vfrrf7NYXPbyQjcMNeR4z6lEiyUYx0z69vw2scZZTKQILak3i0T7sYkR0JBt/A==
+=MJaG
+-----END PGP SIGNATURE-----
