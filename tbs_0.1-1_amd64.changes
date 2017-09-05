@@ -18,32 +18,32 @@ Changes:
  .
    * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
 Checksums-Sha1:
- aa89520cf997ee11bc66f6cccdd78bcf76fa5bec 1338 tbs_0.1-1.dsc
+ 2d96433c35d2e06de13b9199a9685a82e436b466 1338 tbs_0.1-1.dsc
  a33cc78c40cb747dfa62fb131eb9fbc523b2c3a1 780 tbs_0.1.orig.tar.xz
- f9d4e849ed0750076dd16386ebf6d1affc83811e 2764 tbs_0.1-1.debian.tar.xz
- 86b8c6089f61037a5cda27a069c632e63c136bf1 3656 tbs_0.1-1_all.deb
- bd41cced5be4ff551600644f47cf299be494ffa2 5238 tbs_0.1-1_amd64.buildinfo
+ 6474370ef9f37b05ff2de40633c3446270359b66 3340 tbs_0.1-1.debian.tar.xz
+ 1a84eac59767193884f5ac10cd537b7d03f9f28d 3712 tbs_0.1-1_all.deb
+ 0cc4b21a3915fdd797487a254abd0961c78ff364 5238 tbs_0.1-1_amd64.buildinfo
 Checksums-Sha256:
- 5a088a1d72acadce49857d9f0ecb26aae2f0d49790d88e6f2108f6fac09d92d3 1338 tbs_0.1-1.dsc
+ 326b79d842f14182a48c4c56427109c738fa1ab7af11ee089b3c33d8887b0e08 1338 tbs_0.1-1.dsc
  ce9af8c95105e9149ec2f41370f459b516c48452c4dcc3d43dfbdeba86526ef1 780 tbs_0.1.orig.tar.xz
- 5b30b9d5c43f99c5043858d3351bab672aa4fb6e4ea552e79ebee5150dfbe892 2764 tbs_0.1-1.debian.tar.xz
- 3694af04cdaea3d779b31987338400602264ded74e6bab8737ffbd0691abd4da 3656 tbs_0.1-1_all.deb
- 734585877dcf1696fe96422dd5581f363443c709e55c97520acef8f0ca44fc22 5238 tbs_0.1-1_amd64.buildinfo
+ 7877bad26cf9bf516e73a8eee1728942eec61e87eb1fc5bf30f7fbb9eb50190c 3340 tbs_0.1-1.debian.tar.xz
+ d301c82d845f0df3c5be6dee43ee6cae02b4fc4d763b8b7f3419aa7aa7642bfd 3712 tbs_0.1-1_all.deb
+ 6dfdfa672aff172453e904c3a0a1e49e1bf9603b3b359e40354afaa26067253f 5238 tbs_0.1-1_amd64.buildinfo
 Files:
- d878e7867fdb59c2686cfbd920487ff9 1338 unknown optional tbs_0.1-1.dsc
+ 33ce052f7b162f8e3595ea273cacbd9e 1338 unknown optional tbs_0.1-1.dsc
  9a985da46d498e68ee38dfef7c494b12 780 unknown optional tbs_0.1.orig.tar.xz
- 1557b5422411ee8600bccdbfe588d6c1 2764 unknown optional tbs_0.1-1.debian.tar.xz
- bd26411661f0fe08bba92f9de4824e8e 3656 unknown optional tbs_0.1-1_all.deb
- 8117293533d487f915d74f7544d265bc 5238 unknown optional tbs_0.1-1_amd64.buildinfo
+ 9eeef4d286b6b5fef7d8fa4f31f11216 3340 unknown optional tbs_0.1-1.debian.tar.xz
+ 526d049c8247541f3327064722f8e9ff 3712 unknown optional tbs_0.1-1_all.deb
+ 0768b03f56c21e5eb2cbffaaba2838c2 5238 unknown optional tbs_0.1-1_amd64.buildinfo
 
 -----BEGIN PGP SIGNATURE-----
 
-iQFLBAEBCAA1FiEE23Oc1mYbwTGudkLNWaBVsT+bU9QFAlmrf9wXHHByb3RoZW9w
-aGFnZUBnbWFpbC5jb20ACgkQWaBVsT+bU9S0RwgAgkBh/8yE4tXROvWLgzcQGm4+
-YWwUoPQTMLD2Dfo4SyWbBqrILfEoJCYOULWaEvZbxw9eom/FELI9kBISzaBcQ4zo
-wYLV9HA4EvDperQltd3TcFxGM+cqPVOQqfherEroh/WXXzAXiyMDQhLzBHrdxoe4
-CwJChiw7Df1GrUhbOQTvnda+VYgxWa8gcKcBjZwY2JsPWy/JWeGrC/Zs5w1ylZDe
-RCGiPGRSMT1qBni/WQee+bsNYzkwHzfC4ceoomrHJRQf/gKRmNqmGcjvzx/Wfixc
-vfrrf7NYXPbyQjcMNeR4z6lEiyUYx0z69vw2scZZTKQILak3i0T7sYkR0JBt/A==
-=MJaG
+iQFLBAEBCAA1FiEE23Oc1mYbwTGudkLNWaBVsT+bU9QFAlmu9d8XHHByb3RoZW9w
+aGFnZUBnbWFpbC5jb20ACgkQWaBVsT+bU9Q56wf8CG3q7U/r8absVd3Jq9B1IDKu
+Nq1Ktjlmy05QQm5uNJ5j/CV3B6Xgbda6qwhff2gC8/bF/jNJgNUFPBMH8UxngDuI
+8jGNxGkhdWTqRHQqvLWrX9ZJW+90j2Oe70S9BBhMMsxicLcd592ZEWN/ACm8gg2u
+mButBLMx0B4MoGsAvSOvXvVTBiHUYy1pvNLTvbPsLJYIxRuJjaVAcr1Q1+wQyR++
+Jdgw4R2y+5C0icl+2sNBeIZXbYmzAJHi32aJMvlswReF4HgfWQQ1V4P7V3XHPIWI
+B5q7RcJzHbZAqZDOtTnap2uF+oU+LKt91llb69Ggic9VjsS5tOLkCDg2u/7MqA==
+=LX+W
 -----END PGP SIGNATURE-----

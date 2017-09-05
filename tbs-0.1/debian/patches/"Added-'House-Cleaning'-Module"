@@ -1,0 +1,38 @@
+Description: Added House Cleaning module
+ Added module to remove text docs created by tbs.
+ .
+ tbs (0.1-1) unstable; urgency=medium
+ .
+   * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
+Author: Colby Connolly <protheophage@gmail.com>
+
+---
+The information above should follow the Patch Tagging Guidelines, please
+checkout http://dep.debian.net/deps/dep3/ to learn about the format. Here
+are templates for supplementary fields that you might want to add:
+
+Origin: <vendor|upstream|other>, <url of original patch>
+Bug: <url in upstream bugtracker>
+Bug-Debian: https://bugs.debian.org/<bugnumber>
+Bug-Ubuntu: https://launchpad.net/bugs/<bugnumber>
+Forwarded: <no|not-needed|url proving that it has been forwarded>
+Reviewed-By: <name and email of someone who approved the patch>
+Last-Update: 2017-09-05
+
+--- tbs-0.1.orig/tbs
++++ tbs-0.1/tbs
+@@ -69,4 +69,14 @@ dc3dd hwipe="$(head -$f /root/Documents/
+ f=`expr $f + 1`
+ done
+ 
++#HOUSE CLEANING (1)
++
++#Remove text docs created by tbs
++rm -f /root/Documents/mnt.txt
++rm -f /root/Documents/devs.txt
++rm -f /root/Documents/live.txt
++rm -f /root/Documents/flagd.txt
++rm -f /root/Documents/fdevs.txt
++rm -f /root/Documents/ilist.txt
++
+ #Written by Colby Connolly 2016

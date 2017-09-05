@@ -7,17 +7,17 @@ Binary: tbs
 Architecture: all source
 Version: 0.1-1
 Checksums-Md5:
- d878e7867fdb59c2686cfbd920487ff9 1338 tbs_0.1-1.dsc
- bd26411661f0fe08bba92f9de4824e8e 3656 tbs_0.1-1_all.deb
+ 33ce052f7b162f8e3595ea273cacbd9e 1338 tbs_0.1-1.dsc
+ 526d049c8247541f3327064722f8e9ff 3712 tbs_0.1-1_all.deb
 Checksums-Sha1:
- aa89520cf997ee11bc66f6cccdd78bcf76fa5bec 1338 tbs_0.1-1.dsc
- 86b8c6089f61037a5cda27a069c632e63c136bf1 3656 tbs_0.1-1_all.deb
+ 2d96433c35d2e06de13b9199a9685a82e436b466 1338 tbs_0.1-1.dsc
+ 1a84eac59767193884f5ac10cd537b7d03f9f28d 3712 tbs_0.1-1_all.deb
 Checksums-Sha256:
- 5a088a1d72acadce49857d9f0ecb26aae2f0d49790d88e6f2108f6fac09d92d3 1338 tbs_0.1-1.dsc
- 3694af04cdaea3d779b31987338400602264ded74e6bab8737ffbd0691abd4da 3656 tbs_0.1-1_all.deb
+ 326b79d842f14182a48c4c56427109c738fa1ab7af11ee089b3c33d8887b0e08 1338 tbs_0.1-1.dsc
+ d301c82d845f0df3c5be6dee43ee6cae02b4fc4d763b8b7f3419aa7aa7642bfd 3712 tbs_0.1-1_all.deb
 Build-Origin: Kali
 Build-Architecture: amd64
-Build-Date: Sat, 02 Sep 2017 21:06:42 -0700
+Build-Date: Tue, 05 Sep 2017 12:07:01 -0700
 Installed-Build-Depends:
  autoconf (= 2.69-11),
  automake (= 1:1.15.1-2.1),
@@ -176,12 +176,12 @@ Environment:
 
 -----BEGIN PGP SIGNATURE-----
 
-iQFLBAEBCAA1FiEE23Oc1mYbwTGudkLNWaBVsT+bU9QFAlmrf9wXHHByb3RoZW9w
-aGFnZUBnbWFpbC5jb20ACgkQWaBVsT+bU9QKyQf8C1qv2wRsXsYthuEkb2G7xXQF
-NwiY4upvBH1glqKP/xJEdCHhZDJWqVRpFIqeivo/XiIiiKbX6ZxFK5Xo/cj+ZlX6
-pA79Gs0+VNoc4oPKyGk3Idck+Nmh4xC5Au19nCzEif939TErPX9z2cfKrun8RmT+
-xWVB2NdnkEdPtXl8ucDoUTZma8w59I5/An2+uoOD/TKWfSn9vPGz+5pvSk9IoCOM
-xSToG1E3eFjPkwJ170Kedp69mK1Ua0h9m8JGm1lwGsffwoVgAwkHU3RBQFYqK22/
-ziSWC5Z1I8rWfTq1XqNhA5gh70Kv70yPRNNqnMYIIeuN5E06uYEiIyGTPGwVhA==
-=rabm
+iQFLBAEBCAA1FiEE23Oc1mYbwTGudkLNWaBVsT+bU9QFAlmu9d8XHHByb3RoZW9w
+aGFnZUBnbWFpbC5jb20ACgkQWaBVsT+bU9TtfAf/fkvofh0HMqiXqKZQ0H3IEthD
+0zEf+eeLO/ZrynQilNQm9iKoWP/Nz6faJNuc4KXLjyBn+cC68Ar/sqgfqloxg1v4
+txXTPVIqI+5CSMYFWHscu9xMqS/h3mljGr6mWvNCG4TqFEdvSZncF5gXJ8RHPCqX
+8L0u1ICKY/39y622SvCSvxjY6VZPpQb5Y789Z96tNvGII2ZyttJWU2JbW6QTao5v
+23+QALPcekk0Bku0aKn30ZpoRSLLowPcjdBspqDwIvXhhrPIIp6SUyfzSlrp0iuM
+kYXKlfpuqNti6IWksCERVCZ8JJzEyAk9yxQXG4KMNNdd4kzBXumrkQ0XAdIenQ==
+=cSTu
 -----END PGP SIGNATURE-----

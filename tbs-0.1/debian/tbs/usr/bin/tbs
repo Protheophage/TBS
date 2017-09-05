@@ -69,4 +69,14 @@ dc3dd hwipe="$(head -$f /root/Documents/ilist.txt | tail -1)" hash=md5
 f=`expr $f + 1`
 done
 
+#HOUSE CLEANING (1)
+
+#Remove text docs created by tbs
+rm -f /root/Documents/mnt.txt
+rm -f /root/Documents/devs.txt
+rm -f /root/Documents/live.txt
+rm -f /root/Documents/flagd.txt
+rm -f /root/Documents/fdevs.txt
+rm -f /root/Documents/ilist.txt
+
 #Written by Colby Connolly 2016
