@@ -7,11 +7,13 @@ tbs \- The Black Scorme
 .B aic
 .SH DESCRIPTION
 .PP
-	Finds all attached devices, exluding the live usb, and writes zeros (0) to them.
+Finds all attached devices, exluding flagged devices, and writes zeros (0) to them.
 
-	This tool was designed to be used with a live Linux distribution. In order for this tool to exlude the live usb, there must be a "flag" directory named "iignoree_meee" located in the / of the live device (NOT / of the OS)
+In order for this tool to exlude a device, such as the device containing the OS, there must be a "flag" directory named "iignoree_meee" located in the / of the device(s) NOTE: The / of the device is not the / of the OS.
 
-	This tool was created with and tested on Kali Linux.
+This tool was created with and tested on Kali Linux.
+
+WARNING: Running The Black Scorme (tbs) will render all data on all devices (without the "flag") NON-recoverable.
 
 .SH OPTIONS
 This program does not require options or user input.
@@ -20,10 +22,13 @@ This program does not require options or user input.
 This tool uses the following Linux built-ins to accomplish the desired tasks:
 UMOUNT FDISK GREP MKDIR ECHO MOUNT HEAD TAIL FIND READ SED
 For information about these tools please see the appropriate manual pages (i.e. man umount)
+
 .SH AUTHOR
  Written by Colby Connolly
+
 .SH REPORTING BUGS
 protheophage@gmail.com
+
 .SH COPYRIGHT
 Copyright  ©  2016  Free Software Foundation, Inc.
 License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>.

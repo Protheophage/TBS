@@ -41,13 +41,22 @@ echo " "
 
 #BLACK (1)
 
-#Find live usb
+#Find devices to be ignored
 find /media/root -maxdepth 2 -iname 'iignoree_meee' > /root/Documents/live.txt
 
-#Identify live usb
-findmnt -M $(grep -o '/media/root/device..' /root/Documents/live.txt) -o source > /root/Documents/flagd.txt
+#Create Counter
+l=$(grep -c '.' /root/Documents/live.txt)
+m=1
 
-#Remove live usb from imaging list
+#Identify devices to be ignored
+touch /root/Documents/flagd.txt
+while [ $m -le $l ]
+do
+findmnt -M $(head -$m /root/Documents/live.txt | tail -1 | grep -o '/media/root/device..') -o source >> /root/Documents/flagd.txt
+m=`expr $m + 1`
+done
+
+#Remove ignored devices from imaging list
 grep -vwE "$(grep -o "/dev/sd." /root/Documents/flagd.txt)" /root/Documents/devs.txt > /root/Documents/fdevs.txt
 
 #Clean up imaging list
@@ -71,12 +80,15 @@ done
 
 #HOUSE CLEANING (1)
 
-#Remove text docs created by tbs
+#Remove text docs and  mount directories created by tbs
+	#to be more friendly with hard installed Linux
 rm -f /root/Documents/mnt.txt
 rm -f /root/Documents/devs.txt
 rm -f /root/Documents/live.txt
 rm -f /root/Documents/flagd.txt
 rm -f /root/Documents/fdevs.txt
 rm -f /root/Documents/ilist.txt
+umount -a
+rmdir /media/root/dev*
 
 #Written by Colby Connolly 2016
